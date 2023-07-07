@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="" class="logo">Protfolio</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hello,It's Me</h1>
+            <h3>Arulkarthi P</h3>
+            <h1>And I'm a <span class="text"></span></h1>
+            <p class="p1">'Set your heart ablaze' - Rengoku<br></p>
+            <p class="p2">
+                A Computer Science and Engineering student with intense interest<br>towards Web development. 
+            </p>
+            <div class="home-scl">
+                <a href="https://www.linkedin.com/in/arulkarthi-p-94694b224/"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="https://github.com/arul2702"><ion-icon name="logo-github"></ion-icon></ion-icon></a>
+                <a href=""><ion-icon name="mail-outline"></ion-icon></a>
+                <a href=""><ion-icon name="logo-whatsapp"></ion-icon></a>
+            </div>
+            <a href="" class="cv-btn">Download CV</a>
+        </div>
+        <div class="profile-photo">
+            <img src="img\sample-prof.jpg" alt="">
+        </div>
+    </section> 
+    <section class="about" id="about">
+        <h1>About me</h1>
+        <div class="about-school">
+            <div class="sslc">
+                <img src="img\school.png" alt="">
+                <h2>SSLC - Bharathi vidhayala metric school, Namakkal.</h2>
+                <p>Percentage:94%</p>
+            </div>
+            <div class="hslc">
+                <img src="img\school.png" alt="">
+                <h2>HSLC - Bharathi vidhayala metric school, Namakkal.</h2>
+                <p>Percentage:94%</p>
+            </div>
+            <div class="college">
+                <img src="img\grad-hat.jpg" alt="">
+                <h2>Sri Eshwar College of Engineering, Coimbatore.</h2>
+                <p>Bachelor of Computer Science and Engineering</p>
+                <p>Current CGPA:7.8</p>
+            </div>
+            <p class="about-greet">Hello, I'm Arulkarthi, an enthusiastic fresher web developer with a focus on front-end development. I have a keen eye for design and a passion for problem-solving. I'm excited to contribute my skills and learn from experienced professionals to create engaging user experiences.</p>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <h1>My Skills:</h1>
+        <div class="skill-set-row">
+            <div class="box">
+                <img src="img\html.webp" alt="">
+                <h3>HTML</h3>
+            </div>
+            <div class="box">
+                <img src="img\css.webp" alt="">
+                <h3>CSS</h3>
+            </div>
+            <div class="box">
+                <img src="img\js.png" alt="">
+                <h3>Java Script</h3>
+            </div>
+        </div>
+        <div class="skill-set-row r2">
+            <div class="box">
+                <img src="img\react.jpg" alt="">
+                <h3>React</h3>
+            </div>
+            <div class="box">
+                <img src="img\java.jpg" alt="">
+                <h3>Java</h3>
+            </div>
+            <div class="box">
+                <img src="img\c.png" alt="">
+                <h3>C</h3>
+            </div>
+        </div>
+    </section>
+</body>
+<!-- projects -->
+<section class="project" id="projects">
+    <h1>My Projects</h1>
+  <div class="slider">
+    <div class="slides">
+      <div class="slide">
+        <img src="img\p1.png" />
+      </div>
+      <div class="slide">
+        <img src="img\p2.png" />
+      </div>
+      <div class="slide">
+        <img src="img\p3.png" />
+      </div>
+      <div class="slide">
+        <img src="img\p4.png" />
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+    var typed=new Typed(".text",{
+        strings:["Web Developer"],
+        typeSpeed:100,
+        backSpeed:100,
+        backDelay:10000,
+        loop:true
+    })
+</script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>
